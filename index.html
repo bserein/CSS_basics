@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+    
+  </head>
+
+ 
+  <body>
+    <h1>heading 1</h1>
+
+    <h1 id="second-heading">heading 2</h1>
+    <!-- when you specify the ID it always wins -->
+    <h1 id="id-3" class="third-heading">heading 3</h1>
+
+    <!-- header>ul>li*5.list-items <-- you press enter and it does it automatically for you -->
+    <header>
+      <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+      </ul>
+    </header>
+    <main>
+      <sections>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum nemo
+          laborum quidem maxime illo tenetur temporibus nulla eius incidunt amet
+          doloremque aliquid ut sunt molestiae dolorem molestias quia, facilis
+          accusantium.
+        </p>
+      </sections>
+      <sections>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+          magnam, corrupti delectus minima, sunt qui ipsa eos itaque architecto
+          aperiam non. Repudiandae totam, dolores est quae delectus a aut ea.
+        </p>
+      </sections>
+      <sections>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+          quos excepturi minus dolores, illo laudantium aut cupiditate vitae,
+          ipsa voluptatibus quibusdam, repudiandae itaque! Mollitia vero a quos
+          magnam sed in.
+        </p>
+      </sections>
+      <!-- parent div -->
+      <div class="parent-div">
+        <div class="child-div">
+          <img
+            src="https://i.picsum.photos/id/461/200/300.jpg?hmac=dIwmQxeVflRD0QrOZ_p0_q-LpAY7sVhua6FCEIR_xi8"
+            alt="the beach"
+          />
+          <p>some text here</p>
+        </div>
+        <div class="child-div">
+          <img
+            src="https://i.picsum.photos/id/1043/200/300.jpg?hmac=3l-zIM3sjEYfLwln1cOurui-983Bxq1zjEYt9HeScyQ"
+            alt="a waterfall"
+          />
+          <p>some text here</p>
+        </div>
+        <div class="child-div">
+          <img
+            src="https://i.picsum.photos/id/742/200/300.jpg?hmac=sHIMP5dqRR6HpQIp-okFHEfCF2qUo8G3_cq7DuFoCRw"
+            alt="statue of liberty"
+          />
+          <p>some text here</p>
+        </div>
+      </div>
+      <!-- 3 child divs -->
+      <button onclick="console.log('just testing here')">log test</button>
+      <button  id="get-data">get some data</button>
+      <button id="show-alert-btn">show alert</button>
+      <pre> BEERS GO HERE</pre>
+    </main>
+    
+    <footer>
+        <ul class="ul">
+            <li>about us</li>
+            <li>contact us</li>
+            <li>help me</li>
+        </ul>
+    </footer>
+    <!-- this can go anywhere except the header -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

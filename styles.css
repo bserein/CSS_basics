@@ -1,0 +1,67 @@
+
+h1 {
+  color: brown;
+  text-align: center;
+  background-color: aqua;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+#second-heading {
+  background-color: peru;
+}
+.third-heading {
+  background-color: darksalmon;
+}
+#id-3 {
+  background-color: darkviolet;
+}
+header {
+  background-color: deeppink;
+  color: white;
+}
+/* 10px means apply to the top 30 pixels and the bottom 30 pixels and the auto means horizontally so it centers it */
+/* ul {
+    background-color: turquoise;
+    width: 160px;
+    margin: 30px auto;
+} */
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* this is how you use the flex box */
+.parent-div {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: tomato;
+}
+.child-div {
+  /* if you want to add text to the side you can make another flex container on the side of it */
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  background-color: wheat;
+  text-align: center;
+
+  border: 4px solid whitesmoke;
+  border-radius: 10px;
+  /* you can also do it this way */
+  /* border-style: solid;
+  border: 1px;
+  border-color: whitesmoke; */
+}
+/* To ensure the size of the image if they are all different  */
+/* .child-div img {
+  max-height: 100px;
+  max-width: 100px;
+} */
+/* This creates the horizontal navigation */
+li {
+  display: inline;
+}
+
